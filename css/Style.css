@@ -1,0 +1,158 @@
+.NavBar {
+  position: absolute !important;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  top: 0%;
+  left: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(153, 151, 151);
+}
+
+.bar {
+  height: 8.02%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar li {
+  display: inline-block;
+}
+
+.right {
+  display: inline-block;
+  padding-right: 1%;
+  text-decoration: none;
+}
+.right a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.right a:hover {
+  color: #1bd7bb;
+}
+
+.heading {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(89, 89, 89);
+  box-sizing: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.091em;
+  font-family: Quicksand, sans-serif;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  font-family: Quicksand, sans-serif;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 18px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 80%; */
+  margin-left: 7%;
+  margin-right: 7%;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  flex: 1;
+  padding: 10px;
+}
+
+.column_text {
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.p {
+  font-family: Quicksand, sans-serif;
+  color: #5a5959;
+}
+.cp {
+  font-family: Quicksand, sans-serif;
+}
+
+.addition {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.addition a:link {
+  color: #2a2423;
+  background-color: transparent;
+  text-decoration: none;
+}
+.addition a:visited {
+  color: #2a2423;
+  background-color: transparent;
+  text-decoration: none;
+}
+.addition a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+}
+
+.more {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  border-style: solid;
+  border-color: #2a2423;
+  width: fit-content;
+  padding: 8px 16px;
+  color: #5a5959;
+}
+
+.footer {
+  position: block;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 15%;
+  color: white;
+  text-align: center;
+  background-color: #2a2423;
+  border-width: 20px;
+  padding: 0.25%;
+  padding-bottom: 1%;
+  overflow: hidden;
+}
+.bottom {
+  float: left;
+}
+.end {
+  float: right;
+}
